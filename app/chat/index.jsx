@@ -15,7 +15,7 @@ const Index = () => {
   const [input, setInput] = useState();
   const [messages, setMessages] = useState([""]);
 
-  const socket = io.connect("https://portfolio-c4l9.onrender.com", {
+  const socket = io.connect("https://backendmichu.onrender.com", {
     query: `room=${room}`,
   });
 
